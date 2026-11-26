@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.example.retrofitpracticas.ui.list.ListaPokemonScreen
+import com.example.retrofitpracticas.ui.publicaciones.PublicacionesScreen
 import com.example.retrofitpracticas.ui.theme.RetrofitPracticasTheme
 
 class MainActivity : ComponentActivity() {
@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             RetrofitPracticasTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ListaPokemonScreen(modifier = Modifier.padding(innerPadding))
+                    PublicacionesScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
