@@ -59,4 +59,6 @@ dependencies {
 
 // Registro de las peticiones en Logcat (solo para depurar)
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+    // ViewModel para Jetpack Compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
 }
